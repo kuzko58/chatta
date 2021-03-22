@@ -1,8 +1,7 @@
 import jwt from 'jsonwebtoken';
 
 const key =
-  process.env.REACT_APP_JWT_SECRET ||
-  'jbjfbuewbfuwegfugfz347z843gtugfudbcjbxjcbus';
+  process.env.REACT_APP_JWT_SECRET;
 
 export const encryptStorage = (name, value) => {
   localStorage.setItem(name, jwt.sign(value, key, { expiresIn: '30m' }));
