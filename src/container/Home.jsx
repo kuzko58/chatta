@@ -12,7 +12,7 @@ const Home = () => {
     <div>
     <Header />
     <ChatEngine
-       height='100vh'
+       height='calc(100vh - 30px)'
        projectID={process.env.REACT_APP_PROJECT_ID}
        userName={user.username}
        userSecret={user.password}

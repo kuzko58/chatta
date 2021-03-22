@@ -220,6 +220,7 @@
   justify-content: flex-end;
   padding: 2px;
   box-sizing: border-box;
+  height: 30px;
 }
 
 .header-button {
