@@ -1,13 +1,21 @@
 {
-  "name": "chatter",
+  "name": "chatta",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@ant-design/icons": "^4.4.0",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.3",
     "@testing-library/user-event": "^12.6.3",
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "history": "^5.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.20",
     "react": "^17.0.1",
+    "react-chat-engine": "^1.5.9",
     "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
     "web-vitals": "^0.2.4"
   },
